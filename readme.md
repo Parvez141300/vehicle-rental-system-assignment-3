@@ -37,8 +37,7 @@ where
 
   In this query statement well have found all the vehicles that have never been booked. To do so we have done a sub query in the Vehicles table in where keyword and added a also a not exists clause to find the table row which is not booked by matching b.vehicle_id = v.vehicle_id this condition. 
 
-  3) select
-  *
+  3) select *
 from
   Vehicles
 where
